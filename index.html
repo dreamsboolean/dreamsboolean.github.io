@@ -21,9 +21,11 @@
 
     <script type="text/javascript"> 
         $(document).ready(function(){
-            $("#header").load("header.html"); 
-            $("#footer").load("footer.html"); 
-            $("#business_name").load("site_data.html #business_name"); 
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+            $("#business_name").load("site_data.html #business_name");
+            $("#business_phone").load("site_data.html #business_phone");
+            $("#business_address").load("site_data.html #business_address"); 
         });
     </script> 
 
@@ -40,9 +42,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <H1>Welcome!</H1>
-        <p>Company:<span id="business_name"></span></p>
-        <p>Phone: <a href="" class="BUSINESS_PHONE_NUMBER"></a></p>
-        <p>Address: <a href="" target="_blank" class="BUSINESS_ADDRESS"></a></p>
+        <p>Company: <span id="business_name"></span></p>
+        <p>Phone: <a href="" id="business_phone"></a></p>
+        <p>Address: <a href="" id="business_address"></a></p>
     </main>
 
     <footer>
